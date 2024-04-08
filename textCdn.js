@@ -8,5 +8,6 @@ class Message{
     print(){
         let code = `This code is in CDN: ${this.obj}`
         console.log(code);
+        document.body.className = "pruebaBody"
     }
 }
