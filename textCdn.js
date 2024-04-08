@@ -6,7 +6,7 @@ class Message{
     }
 
     print(){
-        let code = `This code is in CDN: ${this.obj}`
+        let code = `This code is in CDN: ${this.obj} holis`
         console.log(code);
         document.body.className = "pruebaBody"
     }
