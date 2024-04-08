@@ -1,3 +1,5 @@
+console.log("Archivo Procesado...")
+
 class Message{
     constructor(obj){
         this.obj = obj
