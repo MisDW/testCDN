@@ -1,9 +1,10 @@
 class Message{
-    constructor(obj = null){
+    constructor(obj){
         this.obj = obj
     }
 
     print(){
-        code = `This code is in CDN: ${this.obj}`
+        let code = `This code is in CDN: ${this.obj}`
+        console.log(code);
     }
 }
